@@ -1,3 +1,10 @@
+# Author: Alex Cortada
+# Description: A Powershell script that finds members from one group, pulls all of the names, then adds them to another group.
+# Date: 08.01.2024
+# Version: 2024.08.01
+
+# Script begins here
+
 # Import the Active Directory module
 Import-Module ActiveDirectory
 

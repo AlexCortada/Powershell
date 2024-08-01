@@ -1,3 +1,11 @@
+# Author: Alex Cortada
+# Description: Powershell script that imports users from a csv, then identifies them by displayname and which group they are in, shows the results, then exports in a csv.
+# Date: 08.01.2024
+# Version: 2024.08.01
+
+# Script begins here
+
+
 #Import from file, idenitify all corp employees, display. Add distro list EXACTLY as shown
 
 Import-Csv "C:\Temp\allemps.csv" | ForEach {Add-DistributionGroupMember -Identity "All Corporate Employees" -Member $_.displayname}

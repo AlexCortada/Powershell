@@ -1,7 +1,7 @@
 # Author: Alex Cortada
 # Description: A simple PowerShell script to list currently installed applications and their install locations, used to identify apps for adding to the Applocker whitelist
 # Date: 08.01.2024
-# Version: 2024.08.01
+# Version: 2024.08.01-1.0
 
 # Script begins here
 
